@@ -1,49 +1,22 @@
-# SkipList
- This repository contains an implementation of a Skip List in C++. It showcases the data structure's efficiency in search, insertion, and deletion operations. Contributions and feedback are welcome!
- 项目简介
-简要描述跳表和这个项目的目的。例如：
-
-mathematica
-复制代码
+**SkipList**
+该仓库包含了跳表在C语言中的实现。它展示了该数据结构在查找、插入和删除操作中的高效性。欢迎贡献和反馈！
+**实验简介**
+  本实验旨在实现并验证跳表（Skip List）数据结构的功能。跳表是一种高效的随机化数据结构，支持快速的插入、删除和查找操作，时间复杂度均为 O(logN)。实验通过C语言实现跳表的基本操作，包括节点创建、插入、删除和查找等功能。
+  实验首先构建一个跳表数据结构，随后随机插入 1 到 11110 的整数，测试插入操作的有效性。接着，逐个删除指定的节点，以验证删除操作的正确性。最后，通过用户输入的键值进行查找，输出对应的值及查询次数，以检验查找操作的效率。
 这是一个用 C 语言实现的跳表数据结构。跳表是一种随机化的数据结构，具有 O(log N) 的时间复杂度，适用于插入、删除和查找操作。
-特性
+**特性**
 支持插入、删除和查找操作
 随机化层数的生成
 使用动态内存管理和指针操作
 时间复杂度为 O(log N)
-安装与使用
-提供简要的安装步骤和使用示例。例如：
-
-bash
-复制代码
+**安装与使用**
 1. 克隆这个仓库
-   git clone https://github.com/yourusername/skiplist.git
-
+   git clone https://github.com/wut-xnq/skiplist.git
 2. 进入项目目录
    cd skiplist
-
 3. 编译代码
-   gcc -o skiplist main.c skiplist.c
-
+   g++ -o skiplist run_skiplist.cpp skiplist.cpp
 4. 运行程序
    ./skiplist
-示例
-可以提供一些示例代码，说明如何使用你的跳表实现。
-
-c
-复制代码
-skip_list *sl = create_sl();
-insert(sl, key, value);
-valueType *val = search(sl, key);
-贡献
-如果你欢迎其他人贡献，可以加入这一部分：
-
-复制代码
-欢迎贡献！请提交问题或拉取请求。
-许可证
-如果适用，可以提及项目的许可证类型。例如：
-
-复制代码
-MIT License
-联系方式
-提供你的联系方式以便其他人可以联系你。
+完成时间：2024.10.08
+联系方式：2244129587@qq.com
